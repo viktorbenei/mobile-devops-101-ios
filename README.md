@@ -1,8 +1,12 @@
 # mobile-devops-101-ios
 
-Mobile DevOps 101 demo - using iOS (swift) project
+Mobile DevOps 101 demo - using iOS (swift) project.
 
 ## Demo
+
+> What is mobile development?
+
+From nothing to having a base project with CI/CD configured.
 
 ### Init/setup
 

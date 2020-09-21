@@ -1,0 +1,21 @@
+# How's mobile different compared to web?
+
+- Mobile developers are not used to web technology - shocking I know.
+    - They aren't familiar with docker, which most hosted CIs seem to default to nowadays.
+- They usually aren't that familiar with the Terminal either - every mobile platform has its own official IDE that they want you to use.
+    - With webdev you usually just use any IDE/Editor you like and the main UI is the terminal/CLI.
+- Code Signing
+- No continuous deployment available with App Store, but you still want to get as close as possible to it.
+    - It's like if you'd be able to deploy to your staging environment any time you want to, but you can't deploy to the production environment only with a day/week delay.
+- You have to be up-to-date with the latest mobile features.
+    - Web developers also have to be up to date, but in different technologies.
+- I think the main difference is to where and how you deploy and how the user interacts with your software.
+    - You have to know the target device and its capabilities as thoroughly as possible.
+- Different platforms also have different security concerns
+    - You secure a web service (which is running on our own servers/virtual machines) differently than an app (which is running on the customer's own device).
+        - For example, how to store secrets, e.g. API Keys which are required for communication? With web server backend the user will never have access to these, it's on the server. With an app anything you store you store it on the device and so the user can potentially access that piece of information or even change it.
+- Native mobile dev is closest to web frontend, but it's still a specialty.
+    - iOS vs Web frontend (modern, "single page app" style) is similar to iOS vs Android, where if you know one you can probably learn the other one in a couple of months to a base level, but you definitely won't become an expert in the new stack in months.
+- Monitoring is also very different especially compared to web backend.
+    - While on web backend you monitor your own servers (virtual machines, containers, ...), in case of apps you have to monitor how your app performs on the customers' devices.
+        - There can be device specific issues too, e.g. back in ~2014 the way you took a photo and then how you got back the image was different between Android devices.
