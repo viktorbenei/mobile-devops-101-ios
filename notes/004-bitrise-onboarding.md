@@ -66,6 +66,8 @@ On Bitrise, being a mobile specific service, you have some great options:
 - We also have a built in Apple Developer Portal feature.
     - Connect your Apple Dev Portal account and we'll generate the code signing files for you.
     - You have to use our iOS Auto Provisioning step.
+- We also have Ship add-on which can do a production re-sign.
+    - If you use a non mobile focused system you'll have to deal with development & production signing separately.
 
 ## How developers work
 
