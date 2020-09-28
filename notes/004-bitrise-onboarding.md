@@ -69,6 +69,8 @@ On Bitrise, being a mobile specific service, you have some great options:
 - We also have Ship add-on which can do a production re-sign.
     - If you use a non mobile focused system you'll have to deal with development & production signing separately.
 
+---
+
 ## How developers work
 
 - They make changes in the code.
